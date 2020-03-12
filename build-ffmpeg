@@ -193,8 +193,8 @@ if build "opencore"; then
 fi
 
 if build "libvpx"; then
-    download "https://github.com/webmproject/libvpx/archive/v1.8.1.tar.gz" "libvpx-1.8.1.tar.gz"
-    cd $PACKAGES/libvpx-1.8.1 || exit
+    download "https://github.com/webmproject/libvpx/archive/v1.8.2.tar.gz" "libvpx-1.8.2.tar.gz"
+    cd $PACKAGES/libvpx-1.8.2 || exit
 
     if [[ "$OSTYPE" == "darwin"* ]]; then
         echo "Applying Darwin patch"
